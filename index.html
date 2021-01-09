@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="styles/estilos.css">
+    <link rel="stylesheet" href="fonts/all.css">
+    <title>Proyecto 1 - Podcast Channel</title>
+</head>
+
+<body>
+    <div class="contenedor-ppal">
+        <header>
+            <div class="botonera">
+                <img class="logo" src="images/logo.svg" alt="bd logo" title="bd logo">
+                <input type="checkbox" id="btn-menu">
+                <label for="btn-menu" class="bg-label"></label>
+                <nav class="menu">
+                    <ul>
+                        <li><a href="#episodios" title="Ir a Episodios">Episodios</a></li>
+                        <li><a href="#nosotros" title="Ir a Nosotros">Nosotros</a></li>
+                        <li><a href="#entrevistas" title="Ir a Entrevistas">Entrevistas</a></li>
+                        <li><a href="#topicos" title="Ir a Tópicos">Tópicos</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+
+            <div id="hello" class="hello">
+                <h1>Hello <span class="tachado">world</span> pale blue dot<span class="punto">.</span></h1>
+                <p>El portal de podcasts que explora el mundo de la programación y la tecnología. Nuevos episodios, todos los jueves cada 15 días.</p>
+                <a class="button1" href="https://www.spotify.com" title="Conocé más" target="_blank">Conocé más</a>
+            </div>
+        </header>
+
+        <main>
+
+            <section id="episodios" class="episodios bg-blue">
+                <h2 class="white">Episodios</h2>
+                <div class="podcast">
+                    <iframe width="298" height="232" src="https://open.spotify.com/embed-podcast/episode/7AZZy2nJ4R9ZndHW0h2yxt" allow="encrypted-media"></iframe>
+                    <iframe width="298" height="232" src="https://open.spotify.com/embed-podcast/episode/1ezdL2ivAGLwSE6Xbssxqt" allow="encrypted-media"></iframe>
+                    <iframe width="298" height="232" src="https://open.spotify.com/embed-podcast/episode/3cWta1iiQSfvrdHaCbLkSD" allow="encrypted-media"></iframe>
+                    <iframe width="298" height="232" src="https://open.spotify.com/embed-podcast/episode/31VyAQAwBiKoHVoYUCEzjQ" allow="encrypted-media"></iframe>
+                </div>
+            </section>
+
+            <section id="nosotros" class="nosotros">
+                <div class="img-phone">
+                    <img src="images/phone.png" alt="Pantalla de celular: 'The Secret History of Women in Coding'" title="The Secret History of Women in Coding">
+                </div>
+                <div>
+                    <h2>De dónde venimos</h2>
+                    <p>
+                        Our posturings, our imagined self-importance, the delusion that we have some privileged position in the Universe, are challenged by this point of pale light.
+                    </p>
+                    <p>
+                        Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in all this vastness, there is no hint that help will come from elsewhere to save us from ourselves.
+                    </p>
+                </div>
+            </section>
+
+            <section id="entrevistas" class="entrevistas">
+                <h2>Invitadas/os estelares</h2>
+                <div>
+                    <img src="images/grace-hopper.png" alt="Grace Hopper" title="Grace Hopper"/>
+                    <img src="images/katie-bouman.png" alt="Katie Bouman" title="Katie Bouman"/>
+                    <img src="images/margaret-hamilton.png" alt="Margaret Hamilton" title="Margaret Hamilton">
+                    <img src="images/univac.png" alt="Computadora Univac 1103, en el año 1950" title="Computadora Univac 1103"/>
+                    <img src="images/eniac.png" alt="Eniac, primera computadora de propósito general" title="Operadores con la computadora 'Eniac'"/>
+                    <img src="images/susan-kare.png" alt="Susan Kare" title="Susan Kare"/>
+                </div>
+            </section>
+
+            <section id="topicos" class="topicos">
+                <h2>Algunos de nuestros temas</h2>
+                <div class="icons">
+                    <div class="items">
+                        <img src="images/icon1.svg" alt="Trabajo remoto" title="Ícono trabajo remoto">
+                        <p>Trabajo remoto</p>
+                    </div>
+                    <div class="items">
+                        <img src="images/icon2.svg" alt="Repensando la programación" title="Ícono repensando la programación">
+                        <p>Repensando la programación</p>
+                    </div>
+                    <div class="items">
+                        <img src="images/icon3.svg" alt="Bases del código" title="Ícono bases del código">
+                        <p>Bases del código</p>
+                    </div>
+                    <div class="items">
+                        <img src="images/icon4.svg" alt="Seguridad informática" title="Ícono Seguridad informática">
+                        <p>Seguridad informática</p>
+                    </div>
+                </div>
+                </section>
+
+            <section id="novedades" class="novedades">
+                <h2 class="white center">¿Querés las últimas novedades?</h2>
+                <a class="button2 mt-36" href="https://www.spotify.com" title="Escuchá los episodios" target="_blank">Escuchá los episodios</a>
+            </section>
+        </main>
+
+        <footer>
+            <div class="legales">
+                <p class="center">© 2019— Hello blue pale dot</p>
+            </div>
+
+            <div class="social">
+                <a href="https://www.spotify.com" title="Ir a Spotify" target="_blank"><i class="brands fab fa-spotify"></i></a>
+                <a href="https://www.instagram.com/" title="Ir a Instagram" target="_blank"><i class="brands fab fa-instagram"></i></a>
+                <a href="https://twitter.com/" title="Ir a Twitter" target="_blank"><i class="brands fab fa-twitter"></i></a>
+                <a href="https://www.facebook.com/" title="Ir a Facebook" target="_blank"><i class="brands fab fa-facebook"></i></a>
+                <a href="https://telegram.org/" title="Ir a Telegram" target="_blank"><i class="brands fab fa-telegram"></i></a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
